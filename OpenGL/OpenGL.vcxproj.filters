@@ -35,11 +35,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Shader.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="begin.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>

@@ -146,9 +146,6 @@
     <ClCompile Include="begin.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Shader.h" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="lamp.fr" />
     <None Include="lamp.vs" />
     <None Include="lighting.fr" />

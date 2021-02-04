@@ -144,6 +144,7 @@
   <ItemGroup>
     <ClCompile Include="basic_lighting.cpp" />
     <ClCompile Include="begin.cpp" />
+    <ClCompile Include="depth.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="lamp.fr" />
@@ -152,6 +153,13 @@
     <None Include="lighting.vs" />
     <None Include="shader.fr" />
     <None Include="shader.vs" />
+    <None Include="stencil_single_color.fs" />
+    <None Include="stencil_testing.fs" />
+    <None Include="stencil_testing.vs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="depth_fragment.txt" />
+    <Text Include="depth_vertix.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

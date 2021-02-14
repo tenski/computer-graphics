@@ -42,6 +42,36 @@
     <None Include="stencil_single_color.fs">
       <Filter>Исходные файлы</Filter>
     </None>
+    <None Include="blending.vs">
+      <Filter>Исходные файлы</Filter>
+    </None>
+    <None Include="blending.fs">
+      <Filter>Исходные файлы</Filter>
+    </None>
+    <None Include="framebuffers.fs">
+      <Filter>Исходные файлы</Filter>
+    </None>
+    <None Include="framebuffers.vs">
+      <Filter>Исходные файлы</Filter>
+    </None>
+    <None Include="framebuffers_screen.fs">
+      <Filter>Исходные файлы</Filter>
+    </None>
+    <None Include="framebuffers_screen.vs">
+      <Filter>Исходные файлы</Filter>
+    </None>
+    <None Include="skybox.vs">
+      <Filter>Исходные файлы</Filter>
+    </None>
+    <None Include="skybox.fs">
+      <Filter>Исходные файлы</Filter>
+    </None>
+    <None Include="cubemaps.fs">
+      <Filter>Исходные файлы</Filter>
+    </None>
+    <None Include="cubemaps.vs">
+      <Filter>Исходные файлы</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="begin.cpp">

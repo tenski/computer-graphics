@@ -142,15 +142,27 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="basic_lighting.cpp" />
+    <ClCompile Include="advanced.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="begin.cpp" />
     <ClCompile Include="depth.cpp" />
+    <ClCompile Include="parallaxAndNormalMapping.cpp" />
+    <ClCompile Include="shadows.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="blending.fs" />
     <None Include="blending.vs" />
     <None Include="cubemaps.fs" />
     <None Include="cubemaps.vs" />
+    <None Include="normal_mapping.fs" />
+    <None Include="normal_mapping.vs" />
+    <None Include="RMP.fs" />
+    <None Include="RMP.vs" />
+    <None Include="shadow_mapping.fs" />
+    <None Include="shadow_mapping.vs" />
+    <None Include="shadow_mapping_depth.fs" />
+    <None Include="debag_quad_depth.fs" />
+    <None Include="debug_quad.vs" />
     <None Include="framebuffers.fs" />
     <None Include="framebuffers.vs" />
     <None Include="framebuffers_screen.fs" />
@@ -161,6 +173,7 @@
     <None Include="lighting.vs" />
     <None Include="shader.fr" />
     <None Include="shader.vs" />
+    <None Include="shadow_mapping_depth.vs" />
     <None Include="skybox.fs" />
     <None Include="skybox.vs" />
     <None Include="stencil_single_color.fs" />

@@ -504,8 +504,8 @@ int main()
 	unsigned int cubeTexture = loadTexture(/*"Textures/*/"image1.jpg");
 	unsigned int transTexture = loadTextureAlpha(/*"Textures/*/"window.png");
 	unsigned int diffuseMap = loadTexture(/*"Textures/*/"image.jpg");
-	unsigned int normalMap = loadTexture(/*"Textures/*/"imageNormal.jpg");
-	unsigned int heightMap = loadTexture(/*"Textures/*/"imageDisplace.jpg");
+	unsigned int normalMap = loadTexture(/*"Textures/*/"imageNormal.png");
+	unsigned int heightMap = loadTexture(/*"Textures/*/"imageDisplace.png");
 
 	// shaders configuration
 	shader.use();
